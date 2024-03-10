@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React , {Fragment} from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App =() => (
+
+
+
+)
 
 export default App;
+
+//reglas JSX
+//  1: Toda etiqueta dede cerrarse 
+//  2: Los componentes deben devolver un solo elemento Padre
+//  3:Apoyarse de los Fragments cundo necestio devolver 2 elementos.
+//  4:Fragment  => <> hijos </>
+//  5:img siempre se cierra
+//   6: clas= classNmae
+//   7: for => forHtml
